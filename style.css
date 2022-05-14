@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+
+.pages {
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+body {
+    background-color: rgb(8, 0, 22);
+}
+
+
+footer {
+    border-top-color: aliceblue;
+    bottom: 0;
+    max-height: 50px;
+}
