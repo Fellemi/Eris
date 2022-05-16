@@ -45,13 +45,11 @@ nav a {
     text-decoration: none;
     text-transform: capitalize;
     align-content: center;
-    max-height: 90%;
-    padding: 20px;
 
 }
 
 /*  
-    stole this code because it looked cool
+    stole this code because it looked cool, slightly modified from the original
     source: https://www.blog.duomly.com/html-button-hover-effects/ 
 */
 #shiny-shadow {
@@ -92,26 +90,41 @@ nav a:after {
   
 nav a:hover:after {
     left: 120%;
-    transition: all 600ms cubic-bezier(0.3, 1, 0.2, 1);
-     -webkit-transition: all 600ms cubic-bezier(0.3, 1, 0.2, 1);
+    transition: all 800ms cubic-bezier(0.3, 1, 0.2, 1);
+     -webkit-transition: all 800ms cubic-bezier(0.3, 1, 0.2, 1);
   }
 
 
 /* For the planet subpage*/
+.planet-img img {
+    flex-wrap: wrap;
+    max-width: 100px;
+
+}
+
 .planet-img {
     flex-wrap: wrap;
-    max-block-size: 10%;
+    align-content: space-between;
+    margin: 10%;
+    margin-top: 5%;
+    
 }
 
 
 /*About Us sub-page*/
 .tofu img {
-max-width: 25%;
-max-height: fit-content;
+    max-width: 25%;
+    max-height: fit-content;
+    margin: 20px;
 }
 
 .tofu {
-    flex-wrap: wrap;
-    align-content: space-between;
-    
+    padding: 5%;
 }
+
+/*More sub-page
+ ..and, yes I forgot how to write comments in the code on one row instead of this
+ bother looking it up tho*/
+ .more {
+     text-decoration: none;
+ }
