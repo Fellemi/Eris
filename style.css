@@ -12,6 +12,11 @@ h1 {
 h2 {
     font-family: sans-serif;
 }
+.intro {
+    margin: 10%;
+    margin-top: 50px;
+    max-height: fit-content;
+}
 
 body {
     background-color: rgb(8, 0, 22);
@@ -26,19 +31,22 @@ footer {
     padding: 10px;
     background-color: rgb(62, 69, 75);
     border: 2px;
+    position: fixed;
 }
 
 nav {
     display: flex;
-    align-content: center;
     justify-content: space-around;
     background-color: rgb(62, 69, 75);
+
 }
 
 nav a {
     text-decoration: none;
     text-transform: capitalize;
     align-content: center;
+    max-height: 90%;
+    padding: 20px;
 
 }
 
@@ -97,6 +105,13 @@ nav a:hover:after {
 
 
 /*About Us sub-page*/
-.tofu {
+.tofu img {
+max-width: 25%;
+max-height: fit-content;
+}
 
+.tofu {
+    flex-wrap: wrap;
+    align-content: space-between;
+    
 }
