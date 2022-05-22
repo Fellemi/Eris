@@ -108,7 +108,6 @@ nav a:hover:after {
     flex-wrap: wrap;
     align-content: space-between;
     margin: 10%;
-    margin-top: 5%;
     
 }
 
@@ -133,7 +132,8 @@ nav a:hover:after {
 
 
  .dwarfplanets-list {
-     padding: 15%;
-     padding-top: 0%;
+
+     margin: 15%;
+     margin-top: 0%;
      color: rgba(0, 0, 0, 0.534);
  }
