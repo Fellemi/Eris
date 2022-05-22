@@ -7,7 +7,7 @@
     <title>Eris - Planet guide</title>
 </head>
 <link rel="stylesheet" href="../style.css">
-<link rel="stylesheet" href="../app.js">
+<script src="../app.js"></script>
 <body>
     <header>    
         <nav class="pages">
@@ -21,15 +21,15 @@
     <main>
         <div class="intro">
              <h1>Planets</h1>
-            <h2>There's eight known planets in our solar system.</h2>
+            <h2>There're eight known planets in our solar system.</h2>
         </div>  
-        <div class="planet-img">
-            <p>Press each planet to find out more about them. (Doesn't work, but pretend it does :))</p>
+        <div  class="planet-img" id="div">
+            <p>Choose one of them to find out more about.</p>
             <a href="javascript: changeText(1);">
-                <img src="../img/mercury.jpg" alt="mercury" />
-            </a>
+                <img src="../img/mercury.jpg" alt="mercury"/>
+                </a>
             <a href="javascript: changeText(2);">
-                <img src="../img/venus.jpg" alt="venus" />
+                <img src="../img/venus.jpg" alt="venus"/>
             </a>
             <a href="javascript: changeText(3);">
                 <img src="../img/earth.jpg" alt="earth" />
@@ -50,11 +50,12 @@
                 <img src="../img/neptune.jpg" alt="neptune" />
             </a>
             <div id="div"></div>
+
          </div>
          
     </main>
     <footer>
-        <p>Those things you put in a footer.</p>
+        <p>Tips, don't bite on your plastic plants. I say this from experience... Also, if you're able to, maybe don't have it right in your face?</p>
     </footer>
 </body>
 </html>

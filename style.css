@@ -65,10 +65,12 @@ nav a {
     background: rgb(35, 38, 41);
     text-transform: uppercase;
     color: white;
-    padding: 15px 50px;
+    margin: 10px;
+    padding: 1%;
     outline: none;
     overflow: hidden;
     position: relative;
+    border-radius: 10px;
   }
   
   span {
@@ -127,4 +129,11 @@ nav a:hover:after {
  bother looking it up tho*/
  .more {
      text-decoration: none;
+ }
+
+
+ .dwarfplanets-list {
+     padding: 15%;
+     padding-top: 0%;
+     color: rgba(0, 0, 0, 0.534);
  }
