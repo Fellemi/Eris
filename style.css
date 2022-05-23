@@ -133,9 +133,9 @@ nav a:hover:after {
 
  .dwarfplanets-list {
 
-     margin: 15%;
-     margin-top: 0%;
-     color: rgba(0, 0, 0, 0.534);
+    margin: 10%;
+    margin-top: 0px;
+    max-height: 100px;
  }
 
  .dont {
